@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "jq-bin",
+    "name": "jq",
+    "version": "1.8.2",
+    "type": "binary",
+    "description": "Command-line JSON processor",
+    "homepage": "https://jqlang.github.io/jq/",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-amd64",
+            "sha256": "b1c22172dd303f3be49e935aa56aa48a8b7a46e0bc838b4997d3bb451495870f"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/jqlang/jq/releases/download/jq-1.8.2/jq-linux-arm64",
+            "sha256": "8b85c817833814ddca00a144c33705546355afccf0cf39b188f3cdb48b852309"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

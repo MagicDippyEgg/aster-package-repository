@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "fd-src",
+    "name": "fd",
+    "version": "10.5.0",
+    "type": "source",
+    "description": "A simple, fast and user-friendly alternative to 'find' (source build)",
+    "homepage": "https://github.com/sharkdp/fd",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/sharkdp/fd.git",
+        "ref": "v10.5.0"
+    },
+    "build": {
+        "steps": [
+            "cargo build --release"
+        ]
+    }
+}
