@@ -40,6 +40,46 @@
             "definition": "packages/neofetch-src.json",
             "type": "source",
             "description": "A command-line system information tool written in bash 3.2+ (source build)"
+        },
+        "jq-bin": {
+            "definition": "packages/jq-bin.json",
+            "type": "binary",
+            "description": "Command-line JSON processor"
+        },
+        "jq-src": {
+            "definition": "packages/jq-src.json",
+            "type": "source",
+            "description": "Command-line JSON processor (source build)"
+        },
+        "eza-bin": {
+            "definition": "packages/eza-bin.json",
+            "type": "binary",
+            "description": "A modern, maintained replacement for ls"
+        },
+        "eza-src": {
+            "definition": "packages/eza-src.json",
+            "type": "source",
+            "description": "A modern, maintained replacement for ls (source build)"
+        },
+        "fd-bin": {
+            "definition": "packages/fd-bin.json",
+            "type": "binary",
+            "description": "A simple, fast and user-friendly alternative to 'find'"
+        },
+        "fd-src": {
+            "definition": "packages/fd-src.json",
+            "type": "source",
+            "description": "A simple, fast and user-friendly alternative to 'find' (source build)"
+        },
+        "dust-bin": {
+            "definition": "packages/dust-bin.json",
+            "type": "binary",
+            "description": "A more intuitive version of du in rust"
+        },
+        "lazygit-bin": {
+            "definition": "packages/lazygit-bin.json",
+            "type": "binary",
+            "description": "Simple terminal UI for git commands"
         }
     }
 }

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "jq-src",
+    "name": "jq",
+    "version": "1.8.2",
+    "type": "source",
+    "description": "Command-line JSON processor (source build)",
+    "homepage": "https://jqlang.github.io/jq/",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/jqlang/jq.git",
+        "ref": "jq-1.8.2"
+    },
+    "build": {
+        "steps": [
+            "git submodule update --init",
+            "autoreconf -i",
+            "./configure",
+            "make"
+        ]
+    }
+}

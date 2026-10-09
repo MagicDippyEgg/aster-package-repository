@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "eza-src",
+    "name": "eza",
+    "version": "0.23.5",
+    "type": "source",
+    "description": "A modern, maintained replacement for ls (source build)",
+    "homepage": "https://eza.rocks",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/eza-community/eza.git",
+        "ref": "v0.23.5"
+    },
+    "build": {
+        "steps": [
+            "cargo build --release"
+        ]
+    }
+}
