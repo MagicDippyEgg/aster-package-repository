@@ -6,6 +6,11 @@
             "type": "binary",
             "description": "An opinionated, fast and lightweight system information tool"
         },
+        "fastfetch-src": {
+            "definition": "packages/fastfetch-src.json",
+            "type": "source",
+            "description": "An opinionated, fast and lightweight system information tool (source build)"
+        },
         "ripgrep-bin": {
             "definition": "packages/ripgrep-bin.json",
             "type": "binary",

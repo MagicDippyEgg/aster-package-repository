@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "id": "fastfetch-src",
+    "name": "Fastfetch",
+    "version": "2.69.0",
+    "type": "source",
+    "description": "An opinionated, fast and lightweight system information tool (source build)",
+    "homepage": "https://github.com/fastfetch-cli/fastfetch",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/fastfetch-cli/fastfetch.git",
+        "ref": "2.69.0"
+    },
+    "build": {
+        "system": "cmake"
+    }
+}
