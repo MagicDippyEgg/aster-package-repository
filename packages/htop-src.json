@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "id": "htop-src",
+    "name": "htop",
+    "version": "3.5.3",
+    "type": "source",
+    "description": "An interactive process viewer for Unix systems (source build)",
+    "homepage": "https://htop.dev",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/htop-dev/htop.git",
+        "ref": "3.5.3"
+    },
+    "build": {
+        "system": "cmake"
+    }
+}
