@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "id": "neofetch-src",
+    "name": "neofetch",
+    "version": "7.1.0",
+    "type": "source",
+    "description": "A command-line system information tool written in bash 3.2+ (source build)",
+    "homepage": "https://github.com/dylanaraps/neofetch",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/dylanaraps/neofetch.git",
+        "ref": "7.1.0"
+    },
+    "build": {
+        "system": "make"
+    }
+}
