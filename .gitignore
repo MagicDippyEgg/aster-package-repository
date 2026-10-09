@@ -1,4 +1,6 @@
+aster/
+aster.spec
+test_aster.py
 __pycache__/
 *.pyc
 .pytest_cache/
-*.egg-info/

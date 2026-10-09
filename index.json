@@ -1,0 +1,10 @@
+{
+    "schema_version": 1,
+    "packages": {
+        "fastfetch-bin": {
+            "definition": "packages/fastfetch-bin.json",
+            "type": "binary",
+            "description": "An opinionated, fast and lightweight system information tool"
+        }
+    }
+}

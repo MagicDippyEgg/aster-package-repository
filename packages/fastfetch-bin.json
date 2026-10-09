@@ -1,0 +1,21 @@
+{
+    "schema_version": 1,
+    "id": "fastfetch-bin",
+    "name": "Fastfetch",
+    "version": "2.30.0",
+    "type": "binary",
+    "description": "An opinionated, fast and lightweight system information tool",
+    "homepage": "https://github.com/fastfetch-cli/fastfetch",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.30.0/fastfetch-linux-amd64.tar.gz"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/fastfetch-cli/fastfetch/releases/download/2.30.0/fastfetch-linux-aarch64.tar.gz"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}
