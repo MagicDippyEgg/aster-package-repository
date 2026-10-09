@@ -5,6 +5,26 @@
             "definition": "packages/fastfetch-bin.json",
             "type": "binary",
             "description": "An opinionated, fast and lightweight system information tool"
+        },
+        "ripgrep-bin": {
+            "definition": "packages/ripgrep-bin.json",
+            "type": "binary",
+            "description": "Fast line-oriented search tool that recursively searches directories for a regex pattern"
+        },
+        "bat-bin": {
+            "definition": "packages/bat-bin.json",
+            "type": "binary",
+            "description": "A cat(1) clone with syntax highlighting and Git integration"
+        },
+        "fzf-bin": {
+            "definition": "packages/fzf-bin.json",
+            "type": "binary",
+            "description": "A general-purpose command-line fuzzy finder"
+        },
+        "btop-bin": {
+            "definition": "packages/btop-bin.json",
+            "type": "binary",
+            "description": "A monitor of resources (CPU, memory, disks, network and processes)"
         }
     }
 }
