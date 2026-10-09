@@ -12,6 +12,10 @@
         "ref": "3.5.3"
     },
     "build": {
-        "system": "cmake"
+        "steps": [
+            "./autogen.sh",
+            "./configure",
+            "make"
+        ]
     }
 }
