@@ -12,8 +12,11 @@
         "ref": "v0.23.5"
     },
     "build": {
-        "steps": [
-            "cargo build --release"
-        ]
-    }
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "eza"
+    ]
 }

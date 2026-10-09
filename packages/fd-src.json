@@ -12,8 +12,11 @@
         "ref": "v10.5.0"
     },
     "build": {
-        "steps": [
-            "cargo build --release"
-        ]
-    }
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "fd"
+    ]
 }
