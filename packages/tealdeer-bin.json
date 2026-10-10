@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "tealdeer-bin",
+    "name": "tealdeer",
+    "version": "1.9.0",
+    "type": "binary",
+    "description": "A very fast implementation of tldr in Rust",
+    "homepage": "https://github.com/dbrgn/tealdeer",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl",
+            "sha256": "dc7263b550e90c0689ea2cb434e3144469805d5dddecbb1f7fc534e1185b7408"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/dbrgn/tealdeer/releases/download/v1.9.0/tealdeer-linux-aarch64-musl",
+            "sha256": "a748f181c00933980cb850f4a24199c45900fc523787f6c524232a6bfc66b895"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

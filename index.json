@@ -200,6 +200,86 @@
             "definition": "packages/tmux-src.json",
             "type": "source",
             "description": "Terminal multiplexer (source build)"
+        },
+        "hexyl-bin": {
+            "definition": "packages/hexyl-bin.json",
+            "type": "binary",
+            "description": "A command-line hex viewer"
+        },
+        "hexyl-src": {
+            "definition": "packages/hexyl-src.json",
+            "type": "source",
+            "description": "A command-line hex viewer (source build)"
+        },
+        "tealdeer-bin": {
+            "definition": "packages/tealdeer-bin.json",
+            "type": "binary",
+            "description": "A very fast implementation of tldr in Rust"
+        },
+        "tealdeer-src": {
+            "definition": "packages/tealdeer-src.json",
+            "type": "source",
+            "description": "A very fast implementation of tldr in Rust (source build)"
+        },
+        "xh-bin": {
+            "definition": "packages/xh-bin.json",
+            "type": "binary",
+            "description": "Friendly and fast tool for sending HTTP requests"
+        },
+        "xh-src": {
+            "definition": "packages/xh-src.json",
+            "type": "source",
+            "description": "Friendly and fast tool for sending HTTP requests (source build)"
+        },
+        "age-bin": {
+            "definition": "packages/age-bin.json",
+            "type": "binary",
+            "description": "A simple, modern and secure file encryption tool"
+        },
+        "age-src": {
+            "definition": "packages/age-src.json",
+            "type": "source",
+            "description": "A simple, modern and secure file encryption tool (source build)"
+        },
+        "gitleaks-bin": {
+            "definition": "packages/gitleaks-bin.json",
+            "type": "binary",
+            "description": "Protect and discover secrets in code"
+        },
+        "gitleaks-src": {
+            "definition": "packages/gitleaks-src.json",
+            "type": "source",
+            "description": "Protect and discover secrets in code (source build)"
+        },
+        "lazydocker-bin": {
+            "definition": "packages/lazydocker-bin.json",
+            "type": "binary",
+            "description": "A simple terminal UI for docker and docker-compose"
+        },
+        "lazydocker-src": {
+            "definition": "packages/lazydocker-src.json",
+            "type": "source",
+            "description": "A simple terminal UI for docker and docker-compose (source build)"
+        },
+        "entr-src": {
+            "definition": "packages/entr-src.json",
+            "type": "source",
+            "description": "Run arbitrary commands when files change"
+        },
+        "cmatrix-src": {
+            "definition": "packages/cmatrix-src.json",
+            "type": "source",
+            "description": "Terminal matrix display animation"
+        },
+        "pv-src": {
+            "definition": "packages/pv-src.json",
+            "type": "source",
+            "description": "Pipe Viewer - a terminal-based tool for monitoring the progress of data through a pipeline"
+        },
+        "cloc-src": {
+            "definition": "packages/cloc-src.json",
+            "type": "source",
+            "description": "Count Lines of Code"
         }
     }
 }

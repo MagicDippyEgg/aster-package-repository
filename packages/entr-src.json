@@ -1,0 +1,20 @@
+{
+    "schema_version": 1,
+    "id": "entr-src",
+    "name": "entr",
+    "version": "5.9",
+    "type": "source",
+    "description": "Run arbitrary commands when files change",
+    "homepage": "https://github.com/eradman/entr",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/eradman/entr.git",
+        "ref": "5.9"
+    },
+    "build": {
+        "steps": [
+            "./configure",
+            "make"
+        ]
+    }
+}
