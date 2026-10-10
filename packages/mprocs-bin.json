@@ -2,18 +2,18 @@
     "schema_version": 1,
     "id": "mprocs-bin",
     "name": "mprocs",
-    "version": "0.10.1",
+    "version": "0.9.4",
     "type": "binary",
-    "description": "A terminal process manager for running multiple commands",
-    "homepage": "https://dekit.run/",
+    "description": "Legacy terminal process manager for running multiple commands",
+    "homepage": "https://github.com/pvolok/dekit",
     "downloads": {
         "linux-x86_64": {
-            "url": "https://github.com/pvolok/dekit/releases/download/v0.10.1/dekit-x86_64-unknown-linux-musl.tar.gz",
-            "sha256": "59563c26122073b0430488ec16ab38f44c838b5cf6924f34fc5971f68e2cc810"
+            "url": "https://github.com/pvolok/dekit/releases/download/v0.9.4/mprocs-0.9.4-linux-x86_64-musl.tar.gz",
+            "sha256": "01dfea64d8788322576a8e5c46ab4b947c819b81f58c69ac613c34e4539c40ae"
         },
         "linux-aarch64": {
-            "url": "https://github.com/pvolok/dekit/releases/download/v0.10.1/dekit-aarch64-unknown-linux-musl.tar.gz",
-            "sha256": "6bbc4de2f475ece6a0211578f8754fe611d70149fca24e59f3bc694a78db37fc"
+            "url": "https://github.com/pvolok/dekit/releases/download/v0.9.4/mprocs-0.9.4-linux-aarch64-musl.tar.gz",
+            "sha256": "77f47c8e391adbfa909120f1dcaa152801d4d2cc38a1edb9dc59aa3f7d5e7ea4"
         }
     },
     "supported_platforms": [
