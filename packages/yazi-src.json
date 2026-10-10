@@ -13,10 +13,10 @@
     },
     "build": {
         "system": "cargo",
-        "release": true,
-        "locked": true
+        "cargo_args": ["xtask", "build"]
     },
     "executables": [
-        "yazi"
+        "yazi",
+        "ya"
     ]
 }
