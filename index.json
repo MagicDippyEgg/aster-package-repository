@@ -80,6 +80,46 @@
             "definition": "packages/lazygit-bin.json",
             "type": "binary",
             "description": "Simple terminal UI for git commands"
+        },
+        "zoxide-bin": {
+            "definition": "packages/zoxide-bin.json",
+            "type": "binary",
+            "description": "A smarter cd command for your terminal"
+        },
+        "zoxide-src": {
+            "definition": "packages/zoxide-src.json",
+            "type": "source",
+            "description": "A smarter cd command for your terminal (source build)"
+        },
+        "procs-bin": {
+            "definition": "packages/procs-bin.json",
+            "type": "binary",
+            "description": "A modern replacement for ps written in Rust"
+        },
+        "procs-src": {
+            "definition": "packages/procs-src.json",
+            "type": "source",
+            "description": "A modern replacement for ps written in Rust (source build)"
+        },
+        "duf-bin": {
+            "definition": "packages/duf-bin.json",
+            "type": "binary",
+            "description": "Disk Usage/Free Utility - a better 'df' alternative"
+        },
+        "hyperfine-bin": {
+            "definition": "packages/hyperfine-bin.json",
+            "type": "binary",
+            "description": "A command-line benchmarking tool"
+        },
+        "tokei-bin": {
+            "definition": "packages/tokei-bin.json",
+            "type": "binary",
+            "description": "A program that displays statistics about your code"
+        },
+        "starship-bin": {
+            "definition": "packages/starship-bin.json",
+            "type": "binary",
+            "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
         }
     }
 }
