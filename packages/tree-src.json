@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "id": "tree-src",
+    "name": "tree",
+    "version": "2.3.2",
+    "type": "source",
+    "description": "Recursive directory listing program that produces a depth indented listing of files (source build)",
+    "homepage": "https://github.com/Old-Man-Programmer/tree",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Old-Man-Programmer/tree.git",
+        "ref": "2.3.2"
+    },
+    "build": {
+        "system": "make"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "schema_version": 1,
+    "id": "tmux-src",
+    "name": "tmux",
+    "version": "3.8",
+    "type": "source",
+    "description": "Terminal multiplexer (source build)",
+    "homepage": "https://github.com/tmux/tmux",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/tmux/tmux.git",
+        "ref": "3.8"
+    },
+    "build": {
+        "steps": [
+            "./autogen.sh",
+            "./configure",
+            "make"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "watchexec-src",
+    "name": "watchexec",
+    "version": "2.8.0",
+    "type": "source",
+    "description": "Executes commands in response to file modifications (source build)",
+    "homepage": "https://watchexec.github.io",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/watchexec/watchexec.git",
+        "ref": "v2.8.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "watchexec"
+    ]
+}

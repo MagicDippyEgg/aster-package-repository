@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "shfmt-src",
+    "name": "shfmt",
+    "version": "3.14.1",
+    "type": "source",
+    "description": "Format shell programs (source build)",
+    "homepage": "https://github.com/mvdan/sh",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/mvdan/sh.git",
+        "ref": "v3.14.1"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o shfmt ./cmd/shfmt"
+        ]
+    }
+}

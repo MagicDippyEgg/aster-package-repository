@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "yq-src",
+    "name": "yq",
+    "version": "4.54.1",
+    "type": "source",
+    "description": "a portable command-line YAML, JSON, XML, CSV, TOML and properties processor (source build)",
+    "homepage": "https://github.com/mikefarah/yq",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/mikefarah/yq.git",
+        "ref": "v4.54.1"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o yq"
+        ]
+    }
+}
