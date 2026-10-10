@@ -2,14 +2,13 @@
     "schema_version": 1,
     "id": "broot-bin",
     "name": "broot",
-    "version": "1.61.0",
+    "version": "1.60.2",
     "type": "binary",
-    "description": "A new way to see and navigate directory trees",
-    "homepage": "https://github.com/Canop/broot",
+    "description": "A new way to see and navigate directory trees (official Linux musl binary)",
+    "homepage": "https://dystroy.org/broot/install/",
     "downloads": {
         "linux-x86_64": {
-            "url": "https://github.com/Canop/broot/releases/download/v1.61.0/broot_1.61.0.zip",
-            "sha256": "6cafe8e993fb8e5684eb25549703a4fb9dec61ac6a8f1947cbed6566cb4e58e5"
+            "url": "https://dystroy.org/broot/download/x86_64-unknown-linux-musl/broot"
         }
     },
     "supported_platforms": [
