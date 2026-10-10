@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "sd-src",
+    "name": "sd",
+    "version": "1.1.0",
+    "type": "source",
+    "description": "Intuitive find & replace CLI (sed alternative) (source build)",
+    "homepage": "https://github.com/chmln/sd",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/chmln/sd.git",
+        "ref": "v1.1.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "sd"
+    ]
+}

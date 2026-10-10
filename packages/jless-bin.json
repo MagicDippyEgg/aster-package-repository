@@ -1,0 +1,18 @@
+{
+    "schema_version": 1,
+    "id": "jless-bin",
+    "name": "jless",
+    "version": "0.9.0",
+    "type": "binary",
+    "description": "Command-line JSON viewer",
+    "homepage": "https://jless.io",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/PaulJuliusMartinez/jless/releases/download/v0.9.0/jless-v0.9.0-x86_64-unknown-linux-gnu.zip",
+            "sha256": "a1e0eb63ef347adc649989ac5c7d2dc896df6d494622b953c86e3a248e733a93"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64"
+    ]
+}

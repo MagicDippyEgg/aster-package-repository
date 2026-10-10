@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "git-cliff-src",
+    "name": "git-cliff",
+    "version": "2.14.2",
+    "type": "source",
+    "description": "A highly customizable changelog generator (source build)",
+    "homepage": "https://git-cliff.org",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/orhun/git-cliff.git",
+        "ref": "v2.14.2"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "git-cliff"
+    ]
+}

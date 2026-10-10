@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "mprocs-src",
+    "name": "mprocs",
+    "version": "0.10.1",
+    "type": "source",
+    "description": "A terminal process manager for running multiple commands (source build)",
+    "homepage": "https://dekit.run/",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/pvolok/mprocs.git",
+        "ref": "v0.10.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "mprocs"
+    ]
+}
