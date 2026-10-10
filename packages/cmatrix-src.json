@@ -12,6 +12,9 @@
         "ref": "v2.0"
     },
     "build": {
-        "system": "cmake"
+        "steps": [
+            "cmake -S . -B build_output -DCMAKE_POLICY_VERSION_MINIMUM=3.5",
+            "cmake --build build_output"
+        ]
     }
 }
