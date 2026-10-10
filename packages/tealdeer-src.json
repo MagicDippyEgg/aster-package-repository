@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "tealdeer-src",
+    "name": "tealdeer",
+    "version": "1.9.0",
+    "type": "source",
+    "description": "A very fast implementation of tldr in Rust (source build)",
+    "homepage": "https://github.com/dbrgn/tealdeer",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/dbrgn/tealdeer.git",
+        "ref": "v1.9.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "tldr"
+    ]
+}

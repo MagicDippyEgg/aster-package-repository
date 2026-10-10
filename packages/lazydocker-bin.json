@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "lazydocker-bin",
+    "name": "lazydocker",
+    "version": "0.25.2",
+    "type": "binary",
+    "description": "A simple terminal UI for docker and docker-compose",
+    "homepage": "https://github.com/jesseduffield/lazydocker",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/jesseduffield/lazydocker/releases/download/v0.25.2/lazydocker_0.25.2_Linux_x86_64.tar.gz",
+            "sha256": "0d9dbfc26068b218e7ed84b104748cadc6e3cf733c0afd35465306fb39b9523c"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/jesseduffield/lazydocker/releases/download/v0.25.2/lazydocker_0.25.2_Linux_arm64.tar.gz",
+            "sha256": "005c38b685aaa557e7d646d83a3dadb5024340eeed8c6a2e1949eee6f530de23"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "hexyl-src",
+    "name": "hexyl",
+    "version": "0.17.0",
+    "type": "source",
+    "description": "A command-line hex viewer (source build)",
+    "homepage": "https://github.com/sharkdp/hexyl",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/sharkdp/hexyl.git",
+        "ref": "v0.17.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "hexyl"
+    ]
+}

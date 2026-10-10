@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "xh-src",
+    "name": "xh",
+    "version": "0.26.2",
+    "type": "source",
+    "description": "Friendly and fast tool for sending HTTP requests (source build)",
+    "homepage": "https://github.com/ducaale/xh",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/ducaale/xh.git",
+        "ref": "v0.26.2"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "xh"
+    ]
+}

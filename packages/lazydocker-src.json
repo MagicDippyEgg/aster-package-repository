@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "lazydocker-src",
+    "name": "lazydocker",
+    "version": "0.25.2",
+    "type": "source",
+    "description": "A simple terminal UI for docker and docker-compose (source build)",
+    "homepage": "https://github.com/jesseduffield/lazydocker",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/jesseduffield/lazydocker.git",
+        "ref": "v0.25.2"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o lazydocker"
+        ]
+    }
+}

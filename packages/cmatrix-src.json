@@ -1,0 +1,17 @@
+{
+    "schema_version": 1,
+    "id": "cmatrix-src",
+    "name": "cmatrix",
+    "version": "2.0",
+    "type": "source",
+    "description": "Terminal matrix display animation",
+    "homepage": "https://github.com/abishekvashok/cmatrix",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/abishekvashok/cmatrix.git",
+        "ref": "v2.0"
+    },
+    "build": {
+        "system": "cmake"
+    }
+}
