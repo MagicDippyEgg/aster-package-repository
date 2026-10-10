@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "ouch-bin",
+    "name": "ouch",
+    "version": "0.8.3",
+    "type": "binary",
+    "description": "Painless compression and decompression in the terminal",
+    "homepage": "https://crates.io/crates/ouch",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "eaab9b997a823f584557ac5f85205105ae577a4c4fbd23926b686469cfa19881"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/ouch-org/ouch/releases/download/0.8.3/ouch-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "4619158de69e65e8d23147c3d8b46b116feb0259c8a1704df7d792394c2b5847"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "jless-src",
+    "name": "jless",
+    "version": "0.9.0",
+    "type": "source",
+    "description": "Command-line JSON viewer (source build)",
+    "homepage": "https://jless.io",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/PaulJuliusMartinez/jless.git",
+        "ref": "v0.9.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "jless"
+    ]
+}

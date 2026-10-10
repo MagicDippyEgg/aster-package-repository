@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "yazi-bin",
+    "name": "yazi",
+    "version": "26.9.1",
+    "type": "binary",
+    "description": "Blazing fast terminal file manager written in Rust",
+    "homepage": "https://yazi-rs.github.io",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-x86_64-unknown-linux-musl.zip",
+            "sha256": "9b9c39decccf8cb0ff53a7d637d38f8a79d93bbd0099f4ea9c619ef6bb392f5d"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/sxyazi/yazi/releases/download/v26.9.1/yazi-aarch64-unknown-linux-musl.zip",
+            "sha256": "dd569daecaae914185f295634109295ccd25c1b42b02eb89a74f651970024f2e"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

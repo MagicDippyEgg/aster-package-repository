@@ -280,6 +280,106 @@
             "definition": "packages/cloc-src.json",
             "type": "source",
             "description": "Count Lines of Code"
+        },
+        "atuin-bin": {
+            "definition": "packages/atuin-bin.json",
+            "type": "binary",
+            "description": "Magical shell history"
+        },
+        "atuin-src": {
+            "definition": "packages/atuin-src.json",
+            "type": "source",
+            "description": "Magical shell history (source build)"
+        },
+        "zellij-bin": {
+            "definition": "packages/zellij-bin.json",
+            "type": "binary",
+            "description": "A terminal workspace with batteries included"
+        },
+        "zellij-src": {
+            "definition": "packages/zellij-src.json",
+            "type": "source",
+            "description": "A terminal workspace with batteries included (source build)"
+        },
+        "yazi-bin": {
+            "definition": "packages/yazi-bin.json",
+            "type": "binary",
+            "description": "Blazing fast terminal file manager written in Rust"
+        },
+        "yazi-src": {
+            "definition": "packages/yazi-src.json",
+            "type": "source",
+            "description": "Blazing fast terminal file manager written in Rust (source build)"
+        },
+        "ouch-bin": {
+            "definition": "packages/ouch-bin.json",
+            "type": "binary",
+            "description": "Painless compression and decompression in the terminal"
+        },
+        "ouch-src": {
+            "definition": "packages/ouch-src.json",
+            "type": "source",
+            "description": "Painless compression and decompression in the terminal (source build)"
+        },
+        "jless-bin": {
+            "definition": "packages/jless-bin.json",
+            "type": "binary",
+            "description": "Command-line JSON viewer"
+        },
+        "jless-src": {
+            "definition": "packages/jless-src.json",
+            "type": "source",
+            "description": "Command-line JSON viewer (source build)"
+        },
+        "presenterm-bin": {
+            "definition": "packages/presenterm-bin.json",
+            "type": "binary",
+            "description": "A markdown terminal slideshow tool"
+        },
+        "presenterm-src": {
+            "definition": "packages/presenterm-src.json",
+            "type": "source",
+            "description": "A markdown terminal slideshow tool (source build)"
+        },
+        "sd-bin": {
+            "definition": "packages/sd-bin.json",
+            "type": "binary",
+            "description": "Intuitive find & replace CLI (sed alternative)"
+        },
+        "sd-src": {
+            "definition": "packages/sd-src.json",
+            "type": "source",
+            "description": "Intuitive find & replace CLI (sed alternative) (source build)"
+        },
+        "difftastic-bin": {
+            "definition": "packages/difftastic-bin.json",
+            "type": "binary",
+            "description": "A structural diff tool that understands syntax"
+        },
+        "difftastic-src": {
+            "definition": "packages/difftastic-src.json",
+            "type": "source",
+            "description": "A structural diff tool that understands syntax (source build)"
+        },
+        "mprocs-bin": {
+            "definition": "packages/mprocs-bin.json",
+            "type": "binary",
+            "description": "A terminal process manager for running multiple commands"
+        },
+        "mprocs-src": {
+            "definition": "packages/mprocs-src.json",
+            "type": "source",
+            "description": "A terminal process manager for running multiple commands (source build)"
+        },
+        "git-cliff-bin": {
+            "definition": "packages/git-cliff-bin.json",
+            "type": "binary",
+            "description": "A highly customizable changelog generator"
+        },
+        "git-cliff-src": {
+            "definition": "packages/git-cliff-src.json",
+            "type": "source",
+            "description": "A highly customizable changelog generator (source build)"
         }
     }
 }

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "difftastic-src",
+    "name": "difftastic",
+    "version": "0.71.0",
+    "type": "source",
+    "description": "A structural diff tool that understands syntax (source build)",
+    "homepage": "https://difftastic.wilfred.me.uk/",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Wilfred/difftastic.git",
+        "ref": "0.71.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "difft"
+    ]
+}

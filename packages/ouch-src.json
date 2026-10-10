@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "ouch-src",
+    "name": "ouch",
+    "version": "0.8.3",
+    "type": "source",
+    "description": "Painless compression and decompression in the terminal (source build)",
+    "homepage": "https://crates.io/crates/ouch",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/ouch-org/ouch.git",
+        "ref": "0.8.3"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "ouch"
+    ]
+}

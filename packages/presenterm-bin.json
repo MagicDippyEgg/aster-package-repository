@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "presenterm-bin",
+    "name": "presenterm",
+    "version": "0.16.1",
+    "type": "binary",
+    "description": "A markdown terminal slideshow tool",
+    "homepage": "https://mfontanini.github.io/presenterm/",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "87512d7c88c3d961c7687aca3519f83c2b7611a550cf769c67c6f7948e8b8f54"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/mfontanini/presenterm/releases/download/v0.16.1/presenterm-0.16.1-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "c03c3744609d61587aac9dda4f431912748bd70d88d4fa6c0440b079001c64c3"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

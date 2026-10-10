@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "presenterm-src",
+    "name": "presenterm",
+    "version": "0.16.1",
+    "type": "source",
+    "description": "A markdown terminal slideshow tool (source build)",
+    "homepage": "https://mfontanini.github.io/presenterm/",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/mfontanini/presenterm.git",
+        "ref": "v0.16.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "presenterm"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "atuin-src",
+    "name": "atuin",
+    "version": "18.23.0",
+    "type": "source",
+    "description": "Magical shell history (source build)",
+    "homepage": "https://atuin.sh",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/atuinsh/atuin.git",
+        "ref": "v18.23.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "atuin"
+    ]
+}

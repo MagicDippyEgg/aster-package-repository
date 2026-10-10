@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "zellij-src",
+    "name": "zellij",
+    "version": "0.45.1",
+    "type": "source",
+    "description": "A terminal workspace with batteries included (source build)",
+    "homepage": "https://zellij.dev",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/zellij-org/zellij.git",
+        "ref": "v0.45.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "zellij"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "atuin-bin",
+    "name": "atuin",
+    "version": "18.23.0",
+    "type": "binary",
+    "description": "Magical shell history",
+    "homepage": "https://atuin.sh",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/atuinsh/atuin/releases/download/v18.23.0/atuin-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "d1b40dd6e7cd3d823867ffe22b39a025bc420f7875926ae9ca974155378da14d"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/atuinsh/atuin/releases/download/v18.23.0/atuin-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "faf91adc71e6b661b21ed4f486babbd7af9d17363d4276da4a0251f83c72498d"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}
