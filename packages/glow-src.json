@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "glow-src",
+    "name": "glow",
+    "version": "3.0.0",
+    "type": "source",
+    "description": "Render markdown on the CLI, with pizzazz! (source build)",
+    "homepage": "https://github.com/charmbracelet/glow",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/charmbracelet/glow.git",
+        "ref": "v3.0.0"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o glow"
+        ]
+    }
+}

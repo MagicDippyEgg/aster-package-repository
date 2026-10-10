@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "gh-bin",
+    "name": "gh",
+    "version": "2.102.0",
+    "type": "binary",
+    "description": "GitHub's official command line tool",
+    "homepage": "https://cli.github.com",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/cli/cli/releases/download/v2.102.0/gh_2.102.0_linux_amd64.tar.gz",
+            "sha256": "bb766f710eef8ede859c18578c72c327597cd4c8a85b06001b1f3843c6019386"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/cli/cli/releases/download/v2.102.0/gh_2.102.0_linux_arm64.tar.gz",
+            "sha256": "7862c86c72f43df3a2d93ddde6f473285b4e2af61b494849846827e513ef6484"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

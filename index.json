@@ -120,6 +120,86 @@
             "definition": "packages/starship-bin.json",
             "type": "binary",
             "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell"
+        },
+        "gh-bin": {
+            "definition": "packages/gh-bin.json",
+            "type": "binary",
+            "description": "GitHub's official command line tool"
+        },
+        "yq-bin": {
+            "definition": "packages/yq-bin.json",
+            "type": "binary",
+            "description": "a portable command-line YAML, JSON, XML, CSV, TOML and properties processor"
+        },
+        "yq-src": {
+            "definition": "packages/yq-src.json",
+            "type": "source",
+            "description": "a portable command-line YAML, JSON, XML, CSV, TOML and properties processor (source build)"
+        },
+        "glow-bin": {
+            "definition": "packages/glow-bin.json",
+            "type": "binary",
+            "description": "Render markdown on the CLI, with pizzazz!"
+        },
+        "glow-src": {
+            "definition": "packages/glow-src.json",
+            "type": "source",
+            "description": "Render markdown on the CLI, with pizzazz! (source build)"
+        },
+        "gum-bin": {
+            "definition": "packages/gum-bin.json",
+            "type": "binary",
+            "description": "A tool for glamorous shell scripts"
+        },
+        "gum-src": {
+            "definition": "packages/gum-src.json",
+            "type": "source",
+            "description": "A tool for glamorous shell scripts (source build)"
+        },
+        "shfmt-bin": {
+            "definition": "packages/shfmt-bin.json",
+            "type": "binary",
+            "description": "Format shell programs"
+        },
+        "shfmt-src": {
+            "definition": "packages/shfmt-src.json",
+            "type": "source",
+            "description": "Format shell programs (source build)"
+        },
+        "delta-bin": {
+            "definition": "packages/delta-bin.json",
+            "type": "binary",
+            "description": "A viewer for git and diff output"
+        },
+        "delta-src": {
+            "definition": "packages/delta-src.json",
+            "type": "source",
+            "description": "A viewer for git and diff output (source build)"
+        },
+        "just-bin": {
+            "definition": "packages/just-bin.json",
+            "type": "binary",
+            "description": "Just a command runner"
+        },
+        "watchexec-bin": {
+            "definition": "packages/watchexec-bin.json",
+            "type": "binary",
+            "description": "Executes commands in response to file modifications"
+        },
+        "watchexec-src": {
+            "definition": "packages/watchexec-src.json",
+            "type": "source",
+            "description": "Executes commands in response to file modifications (source build)"
+        },
+        "tree-src": {
+            "definition": "packages/tree-src.json",
+            "type": "source",
+            "description": "Recursive directory listing program that produces a depth indented listing of files (source build)"
+        },
+        "tmux-src": {
+            "definition": "packages/tmux-src.json",
+            "type": "source",
+            "description": "Terminal multiplexer (source build)"
         }
     }
 }

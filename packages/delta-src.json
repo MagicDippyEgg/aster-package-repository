@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "delta-src",
+    "name": "delta",
+    "version": "0.20.1",
+    "type": "source",
+    "description": "A viewer for git and diff output (source build)",
+    "homepage": "https://github.com/dandavison/delta",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/dandavison/delta.git",
+        "ref": "0.20.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "delta"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "shfmt-bin",
+    "name": "shfmt",
+    "version": "3.14.1",
+    "type": "binary",
+    "description": "Format shell programs",
+    "homepage": "https://github.com/mvdan/sh",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/mvdan/sh/releases/download/v3.14.1/shfmt_v3.14.1_linux_amd64",
+            "sha256": "76e77641faa025814b77f153b29796b8e6fa2fca03e0c76a691608b86c7ea7bf"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/mvdan/sh/releases/download/v3.14.1/shfmt_v3.14.1_linux_arm64",
+            "sha256": "5f2db09dae91fca848f7adbdd014632e921a383863a2ad7e0450ad3aba0c6489"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

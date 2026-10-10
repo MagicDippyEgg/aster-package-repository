@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "gum-src",
+    "name": "gum",
+    "version": "2.0.2",
+    "type": "source",
+    "description": "A tool for glamorous shell scripts (source build)",
+    "homepage": "https://github.com/charmbracelet/gum",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/charmbracelet/gum.git",
+        "ref": "v2.0.2"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o gum"
+        ]
+    }
+}
