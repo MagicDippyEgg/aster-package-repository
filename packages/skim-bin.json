@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "skim-bin",
+    "name": "skim",
+    "version": "5.7.4",
+    "type": "binary",
+    "description": "Fuzzy Finder in rust",
+    "homepage": "https://github.com/lotabout/skim",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/skim-rs/skim/releases/download/v5.7.4/skim-x86_64-unknown-linux-musl.tar.xz",
+            "sha256": "6cf33d76fcfe467b99fe0250d0337fb98c527f1a929a3e1eed870bc9fcc4aea8"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/skim-rs/skim/releases/download/v5.7.4/skim-aarch64-unknown-linux-musl.tar.xz",
+            "sha256": "736a1ee6b574a30b755c03de23664816ac9fbca8b947c80588abfdb847dc8ffe"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

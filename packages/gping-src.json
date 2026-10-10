@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "gping-src",
+    "name": "gping",
+    "version": "gping-v1.21.0",
+    "type": "source",
+    "description": "Ping, but with a graph (source build)",
+    "homepage": "https://github.com/orf/gping",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/orf/gping.git",
+        "ref": "gping-v1.21.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

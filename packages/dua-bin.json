@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "dua-bin",
+    "name": "dua",
+    "version": "2.45.1",
+    "type": "binary",
+    "description": "View disk space usage and delete unwanted files",
+    "homepage": "https://github.com/Byron/dua-cli",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "e9279f02bbbf22611c1602c4d5b526c9b99962d3d828016d48a0ee5b27252805"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/Byron/dua-cli/releases/download/v2.45.1/dua-v2.45.1-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "8549719a92187491c1a6956aefddbd815ee5b3217491f2a3d98f2cc388bcb5ef"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

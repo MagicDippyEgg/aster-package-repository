@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "bacon-src",
+    "name": "bacon",
+    "version": "3.26.0",
+    "type": "source",
+    "description": "Background rust code checker (source build)",
+    "homepage": "https://github.com/Canop/bacon",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Canop/bacon.git",
+        "ref": "v3.26.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

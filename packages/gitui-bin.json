@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "gitui-bin",
+    "name": "gitui",
+    "version": "0.28.1",
+    "type": "binary",
+    "description": "Blazing fast terminal-ui for git written in rust",
+    "homepage": "https://github.com/extrawurst/gitui",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/gitui-org/gitui/releases/download/v0.28.1/gitui-linux-x86_64.tar.gz",
+            "sha256": "f6149b9ae203397158b0c89c13cfde718e7121d3d3cd2ebc597f93d6628d9b5b"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/gitui-org/gitui/releases/download/v0.28.1/gitui-linux-aarch64.tar.gz",
+            "sha256": "2a640da05b73e9152a7bf92bfd7c23acd9d60438f4f2cabb62357014a5fd7c28"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "dua-src",
+    "name": "dua",
+    "version": "2.45.1",
+    "type": "source",
+    "description": "View disk space usage and delete unwanted files (source build)",
+    "homepage": "https://github.com/Byron/dua-cli",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Byron/dua-cli.git",
+        "ref": "v2.45.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

@@ -380,6 +380,106 @@
             "definition": "packages/git-cliff-src.json",
             "type": "source",
             "description": "A highly customizable changelog generator (source build)"
+        },
+        "bottom-bin": {
+            "definition": "packages/bottom-bin.json",
+            "type": "binary",
+            "description": "Yet another cross-platform graphical process/system monitor"
+        },
+        "bottom-src": {
+            "definition": "packages/bottom-src.json",
+            "type": "source",
+            "description": "Yet another cross-platform graphical process/system monitor (source build)"
+        },
+        "dua-bin": {
+            "definition": "packages/dua-bin.json",
+            "type": "binary",
+            "description": "View disk space usage and delete unwanted files"
+        },
+        "dua-src": {
+            "definition": "packages/dua-src.json",
+            "type": "source",
+            "description": "View disk space usage and delete unwanted files (source build)"
+        },
+        "broot-bin": {
+            "definition": "packages/broot-bin.json",
+            "type": "binary",
+            "description": "A new way to see and navigate directory trees"
+        },
+        "broot-src": {
+            "definition": "packages/broot-src.json",
+            "type": "source",
+            "description": "A new way to see and navigate directory trees (source build)"
+        },
+        "gitui-bin": {
+            "definition": "packages/gitui-bin.json",
+            "type": "binary",
+            "description": "Blazing fast terminal-ui for git written in rust"
+        },
+        "gitui-src": {
+            "definition": "packages/gitui-src.json",
+            "type": "source",
+            "description": "Blazing fast terminal-ui for git written in rust (source build)"
+        },
+        "bacon-bin": {
+            "definition": "packages/bacon-bin.json",
+            "type": "binary",
+            "description": "Background rust code checker"
+        },
+        "bacon-src": {
+            "definition": "packages/bacon-src.json",
+            "type": "source",
+            "description": "Background rust code checker (source build)"
+        },
+        "skim-bin": {
+            "definition": "packages/skim-bin.json",
+            "type": "binary",
+            "description": "Fuzzy Finder in rust"
+        },
+        "skim-src": {
+            "definition": "packages/skim-src.json",
+            "type": "source",
+            "description": "Fuzzy Finder in rust (source build)"
+        },
+        "grex-bin": {
+            "definition": "packages/grex-bin.json",
+            "type": "binary",
+            "description": "A command-line tool for generating regular expressions from user-provided test cases"
+        },
+        "grex-src": {
+            "definition": "packages/grex-src.json",
+            "type": "source",
+            "description": "A command-line tool for generating regular expressions from user-provided test cases (source build)"
+        },
+        "gping-bin": {
+            "definition": "packages/gping-bin.json",
+            "type": "binary",
+            "description": "Ping, but with a graph"
+        },
+        "gping-src": {
+            "definition": "packages/gping-src.json",
+            "type": "source",
+            "description": "Ping, but with a graph (source build)"
+        },
+        "miniserve-bin": {
+            "definition": "packages/miniserve-bin.json",
+            "type": "binary",
+            "description": "For when you simply want to serve some files over HTTP"
+        },
+        "miniserve-src": {
+            "definition": "packages/miniserve-src.json",
+            "type": "source",
+            "description": "For when you simply want to serve some files over HTTP (source build)"
+        },
+        "oxipng-bin": {
+            "definition": "packages/oxipng-bin.json",
+            "type": "binary",
+            "description": "Multithreaded PNG optimizer written in Rust"
+        },
+        "oxipng-src": {
+            "definition": "packages/oxipng-src.json",
+            "type": "source",
+            "description": "Multithreaded PNG optimizer written in Rust (source build)"
         }
     }
 }
