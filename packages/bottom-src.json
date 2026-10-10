@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "bottom-src",
+    "name": "bottom",
+    "version": "0.14.9",
+    "type": "source",
+    "description": "Yet another cross-platform graphical process/system monitor (source build)",
+    "homepage": "https://github.com/clementtsang/bottom",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/clementtsang/bottom.git",
+        "ref": "0.14.9"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

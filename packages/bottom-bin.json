@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "bottom-bin",
+    "name": "bottom",
+    "version": "0.14.9",
+    "type": "binary",
+    "description": "Yet another cross-platform graphical process/system monitor",
+    "homepage": "https://github.com/clementtsang/bottom",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "b4bee5b193e7d3f6e090ac14f0ca15acec2e7fe4ef64988e0bfc492e16c28c9a"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/ClementTsang/bottom/releases/download/0.14.9/bottom_aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "7b6d532f6a6af356970f4e8d7d3a792590485aa4a53ebf038e10d20366125533"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

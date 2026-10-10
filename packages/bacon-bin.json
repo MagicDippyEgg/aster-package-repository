@@ -1,0 +1,18 @@
+{
+    "schema_version": 1,
+    "id": "bacon-bin",
+    "name": "bacon",
+    "version": "3.26.0",
+    "type": "binary",
+    "description": "Background rust code checker",
+    "homepage": "https://github.com/Canop/bacon",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/Canop/bacon/releases/download/v3.26.0/bacon_3.26.0.zip",
+            "sha256": "a23260e9f23f63b2363830f15c685da4032477d55258d9e646c39f9680f3f75a"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64"
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "skim-src",
+    "name": "skim",
+    "version": "5.7.4",
+    "type": "source",
+    "description": "Fuzzy Finder in rust (source build)",
+    "homepage": "https://github.com/lotabout/skim",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/lotabout/skim.git",
+        "ref": "v5.7.4"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

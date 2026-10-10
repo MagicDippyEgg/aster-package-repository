@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "oxipng-src",
+    "name": "oxipng",
+    "version": "10.2.1",
+    "type": "source",
+    "description": "Multithreaded PNG optimizer written in Rust (source build)",
+    "homepage": "https://github.com/shssoichiro/oxipng",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/shssoichiro/oxipng.git",
+        "ref": "v10.2.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

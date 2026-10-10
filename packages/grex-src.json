@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "grex-src",
+    "name": "grex",
+    "version": "1.4.6",
+    "type": "source",
+    "description": "A command-line tool for generating regular expressions from user-provided test cases (source build)",
+    "homepage": "https://github.com/pemistahl/grex",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/pemistahl/grex.git",
+        "ref": "v1.4.6"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

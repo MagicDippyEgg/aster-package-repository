@@ -1,0 +1,19 @@
+{
+    "schema_version": 1,
+    "id": "broot-src",
+    "name": "broot",
+    "version": "1.61.0",
+    "type": "source",
+    "description": "A new way to see and navigate directory trees (source build)",
+    "homepage": "https://github.com/Canop/broot",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/Canop/broot.git",
+        "ref": "v1.61.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    }
+}

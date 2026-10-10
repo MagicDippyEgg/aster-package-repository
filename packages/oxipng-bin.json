@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "oxipng-bin",
+    "name": "oxipng",
+    "version": "10.2.1",
+    "type": "binary",
+    "description": "Multithreaded PNG optimizer written in Rust",
+    "homepage": "https://github.com/shssoichiro/oxipng",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "1813750ef592c5350ca79c88f98b2c0876d05c826dc7156245256d4255c1ad17"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/oxipng/oxipng/releases/download/v10.2.1/oxipng-10.2.1-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "ff21aa2a005b324c8dfbdf13cd2f469fb6728b27dacded82635824ecd12e3b35"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}

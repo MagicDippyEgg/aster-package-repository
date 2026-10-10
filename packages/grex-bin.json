@@ -1,0 +1,23 @@
+{
+    "schema_version": 1,
+    "id": "grex-bin",
+    "name": "grex",
+    "version": "1.4.6",
+    "type": "binary",
+    "description": "A command-line tool for generating regular expressions from user-provided test cases",
+    "homepage": "https://github.com/pemistahl/grex",
+    "downloads": {
+        "linux-x86_64": {
+            "url": "https://github.com/pemistahl/grex/releases/download/v1.4.6/grex-v1.4.6-x86_64-unknown-linux-musl.tar.gz",
+            "sha256": "8f02f4ebe72d9e3098c646b77f7bc53ec8a8c1fb51ed042db06b739d08e56af8"
+        },
+        "linux-aarch64": {
+            "url": "https://github.com/pemistahl/grex/releases/download/v1.4.6/grex-v1.4.6-aarch64-unknown-linux-musl.tar.gz",
+            "sha256": "65ac2010ffc4a02690b091819f2971c0b26081b2ce7cb717a0de3f10409010b9"
+        }
+    },
+    "supported_platforms": [
+        "linux-x86_64",
+        "linux-aarch64"
+    ]
+}
