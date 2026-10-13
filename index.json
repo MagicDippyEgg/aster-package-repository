@@ -1,5 +1,8 @@
 {
-    "schema_version": 1,
+    "schema_version": 2,
+    "description": "The default repository for Aster",
+    "maintainer": "Magic Dippy Egg",
+    "homepage": "https://github.com/MagicDippyEgg/aster-package-repository",
     "packages": {
         "fastfetch-bin": {
             "definition": "packages/fastfetch-bin.json",
