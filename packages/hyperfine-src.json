@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "hyperfine-src",
+    "name": "hyperfine",
+    "version": "1.19.0",
+    "type": "source",
+    "description": "A command-line benchmarking tool (source build)",
+    "homepage": "https://github.com/sharkdp/hyperfine",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/sharkdp/hyperfine.git",
+        "ref": "v1.19.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "hyperfine"
+    ]
+}

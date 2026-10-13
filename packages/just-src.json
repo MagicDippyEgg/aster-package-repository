@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "just-src",
+    "name": "just",
+    "version": "1.39.0",
+    "type": "source",
+    "description": "Just a command runner (source build)",
+    "homepage": "https://github.com/casey/just",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/casey/just.git",
+        "ref": "1.39.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "just"
+    ]
+}

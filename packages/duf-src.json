@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "duf-src",
+    "name": "duf",
+    "version": "0.8.0",
+    "type": "source",
+    "description": "Disk Usage/Free Utility - a better 'df' alternative (source build)",
+    "homepage": "https://github.com/muesli/duf",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/muesli/duf.git",
+        "ref": "v0.8.0"
+    },
+    "build": {
+        "steps": [
+            "go build -v -o duf"
+        ]
+    },
+    "executables": [
+        "duf"
+    ]
+}

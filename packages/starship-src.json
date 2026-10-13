@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "starship-src",
+    "name": "starship",
+    "version": "1.22.1",
+    "type": "source",
+    "description": "The minimal, blazing-fast, and infinitely customizable prompt for any shell (source build)",
+    "homepage": "https://starship.rs",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/starship/starship.git",
+        "ref": "v1.22.1"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "starship"
+    ]
+}

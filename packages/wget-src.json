@@ -1,0 +1,24 @@
+{
+    "schema_version": 1,
+    "id": "wget-src",
+    "name": "wget",
+    "version": "1.25.0",
+    "type": "source",
+    "description": "Tool for retrieving files using HTTP, HTTPS, and FTP",
+    "homepage": "https://www.gnu.org/software/wget/",
+    "source": {
+        "type": "git",
+        "url": "https://git.savannah.gnu.org/git/wget.git",
+        "ref": "v1.25.0"
+    },
+    "build": {
+        "steps": [
+            "./bootstrap",
+            "./configure",
+            "make"
+        ]
+    },
+    "executables": [
+        "wget"
+    ]
+}

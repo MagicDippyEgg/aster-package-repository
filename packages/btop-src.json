@@ -1,0 +1,20 @@
+{
+    "schema_version": 1,
+    "id": "btop-src",
+    "name": "btop",
+    "version": "1.4.0",
+    "type": "source",
+    "description": "A monitor of resources (CPU, memory, disks, network and processes) (source build)",
+    "homepage": "https://github.com/aristocratos/btop",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/aristocratos/btop.git",
+        "ref": "v1.4.0"
+    },
+    "build": {
+        "system": "make"
+    },
+    "executables": [
+        "btop"
+    ]
+}
