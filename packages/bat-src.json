@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "bat-src",
+    "name": "bat",
+    "version": "0.25.0",
+    "type": "source",
+    "description": "A cat(1) clone with syntax highlighting and Git integration (source build)",
+    "homepage": "https://github.com/sharkdp/bat",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/sharkdp/bat.git",
+        "ref": "v0.25.0"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "bat"
+    ]
+}

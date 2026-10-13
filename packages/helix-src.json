@@ -1,0 +1,22 @@
+{
+    "schema_version": 1,
+    "id": "helix-src",
+    "name": "helix",
+    "version": "25.01",
+    "type": "source",
+    "description": "A post-modern modal text editor (source build)",
+    "homepage": "https://helix-editor.com",
+    "source": {
+        "type": "git",
+        "url": "https://github.com/helix-editor/helix.git",
+        "ref": "25.01"
+    },
+    "build": {
+        "system": "cargo",
+        "release": true,
+        "locked": true
+    },
+    "executables": [
+        "hx"
+    ]
+}

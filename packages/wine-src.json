@@ -1,0 +1,24 @@
+{
+    "schema_version": 1,
+    "id": "wine-src",
+    "name": "Wine",
+    "version": "9.0",
+    "type": "source",
+    "description": "Compatibility layer capable of running Windows applications",
+    "homepage": "https://www.winehq.org",
+    "source": {
+        "type": "git",
+        "url": "https://gitlab.winehq.org/wine/wine.git",
+        "ref": "wine-9.0"
+    },
+    "build": {
+        "steps": [
+            "./configure",
+            "make"
+        ]
+    },
+    "executables": [
+        "wine",
+        "wine64"
+    ]
+}
